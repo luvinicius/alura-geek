@@ -1,0 +1,25 @@
+.produto-container__imagem {
+    margin-bottom: .5rem;
+  }
+  
+  .produto-container__nome {
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1rem;
+    margin-bottom: .5rem;
+  }
+  
+  .produto-container__preco {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .produto-container__ver-produto {
+    font-weight: 700;
+    font-size: .875rem;
+    line-height: 1rem;
+    color: var(--azul);
+  }
