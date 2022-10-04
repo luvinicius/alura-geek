@@ -23,7 +23,6 @@
 
 .cabecalho__pesquisa {
     padding: .5rem 1rem;
-    background-color: var(--cor-fundo-principal);
-    border-radius: 1.25rem;
+    background-color: transparent;
     border: 0;
 }

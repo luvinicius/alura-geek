@@ -7,7 +7,7 @@
     --fonte-principal: 'Raleway', sans-serif;
   
     --branco: #FFF;
-    --cor-fundo-principal: #F5F5F5;
+    --cinza-claro: #F5F5F5;
     --cinza-medio: #A2A2A2;
     --cinza-fonte: #464646;
     --azul-claro: #D4E4FA;
@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--fonte-principal);
-    background-color: var(--cor-fundo-principal);
+    background-color: var(--cinza-claro);
 
     font-weight: 500;
     font-size: 16px;
