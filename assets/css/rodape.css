@@ -1,14 +1,26 @@
-.rodape{
+.rodape {
     background-color: var(--azul-claro);
 }
-.cabecalho__rodape, .rodape__menu{
+
+.cabecalho__rodape,
+.rodape__menu {
     text-align: center;
 }
-.rodape__menu__item{
+
+.rodape__menu__item {
     padding: .5rem 0;
 }
-.rodape__menu__link{
+
+.rodape__menu__link {
     font-size: 1rem;
     font-weight: 500;
     color: var(--cinza-fonte);
+}
+
+.desenvolvedor {
+    text-align: center;
+    font-weight: 500;
+    color: var(--cinza-fonte);
+    background-color: var(--branco);
+    padding: 2rem;
 }
