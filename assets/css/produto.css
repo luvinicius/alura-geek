@@ -17,7 +17,6 @@
 
 .produto__preco {
   font-weight: 700;
-  font-size: 1rem;
   line-height: 1.25rem;
   display: block;
   margin-bottom: 0.5rem;
@@ -28,4 +27,10 @@
   font-size: .875rem;
   line-height: 1rem;
   color: var(--azul);
+}
+
+@media screen and (min-width:768px) {
+  .produto {
+    width: calc(25vw - 2rem);
+  }
 }

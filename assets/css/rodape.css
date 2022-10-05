@@ -2,8 +2,7 @@
     background-color: var(--azul-claro);
 }
 
-.cabecalho__rodape,
-.rodape__menu {
+.rodape_infomacoes{
     text-align: center;
 }
 
@@ -12,8 +11,8 @@
 }
 
 .rodape__menu__link {
-    font-size: 1rem;
     font-weight: 500;
+    line-height: 1.25rem;
     color: var(--cinza-fonte);
 }
 
@@ -23,4 +22,21 @@
     color: var(--cinza-fonte);
     background-color: var(--branco);
     padding: 2rem;
+}
+
+@media screen and (min-width:768px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-top: 2rem;
+    }
+    .rodape_infomacoes{
+        text-align: left;
+        padding-bottom: 2rem;
+        padding-left: 2rem;
+    }
+
+    .desenvolvedor{
+        grid-column: span 2;
+    }
 }

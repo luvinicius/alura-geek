@@ -21,8 +21,39 @@
     width: 8.25rem;
 }
 
-.cabecalho__pesquisa {
+.cabecalho__botao-pesquisa {
     padding: .5rem 1rem;
     background-color: transparent;
     border: 0;
+}
+
+.cabecalho__input-pesquisa {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho__botao-pesquisa {
+        display: none;
+    }
+
+    .cabecalho__input-pesquisa {
+        display: block;
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--cinza-fonte);
+        background-color: var(--cinza-claro);
+        border: 0;
+        border-radius: 1rem;
+        padding: .5rem 0 .5rem 1rem;
+        margin-left: 1rem;
+        margin-right: auto;
+        width: 35%;
+    }
+
+    .cabecalho__input-pesquisa::placeholder {
+        font-size: 0.875rem;
+        color: var(--cinza-medio);
+        background: url(../img/Lupa-Input.svg) no-repeat;
+        background-position: 100%;
+    }
 }

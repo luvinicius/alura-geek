@@ -4,10 +4,11 @@
 }
 
 .formulario-contato__titulo {
-    font-size: 1rem;
+    
     font-weight: 700;
     color: var(--cinza-fonte);
     margin-bottom: 1rem;
+    line-height: 1.25rem;
 }
 
 .formulario-contato__nome {
@@ -57,4 +58,8 @@
     background-color: var(--azul);
     border: none;
     padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    
 }
