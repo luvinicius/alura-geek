@@ -1,6 +1,8 @@
 .rodape{
-    text-align: center;
     background-color: var(--azul-claro);
+}
+.cabecalho__rodape, .rodape__menu{
+    text-align: center;
 }
 .rodape__menu__item{
     padding: .5rem 0;
