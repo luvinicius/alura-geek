@@ -1,0 +1,12 @@
+.rodape{
+    text-align: center;
+    background-color: var(--azul-claro);
+}
+.rodape__menu__item{
+    padding: .5rem 0;
+}
+.rodape__menu__link{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cinza-fonte);
+}

@@ -2,6 +2,7 @@
 @import url(banner.css);
 @import url(categoria.css);
 @import url(produto.css);
+@import url(rodape.css);
 
 :root {
     --fonte-principal: 'Raleway', sans-serif;
@@ -13,6 +14,7 @@
     --azul-claro: #D4E4FA;
     --azul: #2A7AE4;
     --azul-medio: #5595E9;
+    --azul-claro:#EAF2FD;
 }
 
 body {
