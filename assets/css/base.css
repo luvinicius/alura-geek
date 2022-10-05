@@ -5,7 +5,7 @@
 
 :root {
     --fonte-principal: 'Raleway', sans-serif;
-  
+
     --branco: #FFF;
     --cinza-claro: #F5F5F5;
     --cinza-medio: #A2A2A2;
@@ -17,7 +17,7 @@
 
 body {
     font-family: var(--fonte-principal);
-    background-color: var(--cinza-claro);
+    background-color: var(--branco);
 
     font-weight: 500;
     font-size: 16px;
