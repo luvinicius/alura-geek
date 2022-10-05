@@ -27,3 +27,6 @@ Para isso eles estão solicitando a nossa ajuda como desenvolvedores para criar 
 **01/10/2022 Sábado da primeira semana:**
 ><sup>Estou focando em terminar os cursos sugeridos no Plano de estudos [AluraGeek | Alura Challenge - Semana 1 e 2](https://cursos.alura.com.br/alurageek-alura-challenge-semana-1-monicahillman-1645662556745-p309233) e tentando finalizar a formação de [HTML e CSS](https://www.alura.com.br/formacao-html-e-css).
 Optei por não utilizar um framework inicialmente pois estou focando em aprender mais sobre HTML5 e CSS3, e tem dado muito certo.</sup>
+
+**05/10/2022 Quarta-feira da segunda semana:**
+><sup>Estava focando em fazer os cursos da formação de HTML/CSS. Consegui aprender muita coisa nova. Hoje consegui terminar a entrega da primeira semana, pode ser que eu ainda tenha que fazer alguns ajustes aqui ou ali, mas agora já posso me concentrar em começar fazer as demais páginas.</sup>
