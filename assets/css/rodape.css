@@ -2,7 +2,7 @@
     background-color: var(--azul-claro);
 }
 
-.rodape_infomacoes{
+.rodape__infomacoes{
     text-align: center;
 }
 
@@ -30,7 +30,7 @@
         grid-template-columns: 50% 50%;
         padding-top: 2rem;
     }
-    .rodape_infomacoes{
+    .rodape__infomacoes{
         text-align: left;
         padding-bottom: 2rem;
         padding-left: 2rem;
@@ -38,5 +38,18 @@
 
     .desenvolvedor{
         grid-column: span 2;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        padding-top: 3rem;
+    }
+    .rodape__infomacoes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .rodape__infomacoes{
+        margin-left: 4rem;
     }
 }

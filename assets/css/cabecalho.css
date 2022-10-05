@@ -19,6 +19,7 @@
     font-size: 0.875rem;
     line-height: 1rem;
     width: 8.25rem;
+    cursor: pointer;
 }
 
 .cabecalho__botao-pesquisa {
@@ -32,6 +33,10 @@
 }
 
 @media screen and (min-width:768px) {
+    .cabecalho {
+        padding:1rem 2rem;
+    }
+
     .cabecalho__botao-pesquisa {
         display: none;
     }
@@ -55,5 +60,11 @@
         color: var(--cinza-medio);
         background: url(../img/Lupa-Input.svg) no-repeat;
         background-position: 100%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho {
+        padding:2rem 6rem;
     }
 }

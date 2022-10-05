@@ -21,7 +21,9 @@
 }
 
 .banner__link {
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.875;
+  line-height: 1rem;
   background: var(--azul);
   display: inline-block;
 }
@@ -38,5 +40,18 @@
   .banner__descricao {
     font-size: 1.375rem;
     margin: 2rem 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .banner {
+    padding: 12rem 6rem 2rem;
+
+  }
+
+  .banner__link {
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
   }
 }

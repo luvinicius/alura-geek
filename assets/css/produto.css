@@ -34,3 +34,9 @@
     width: calc(25vw - 2rem);
   }
 }
+
+@media screen and (min-width:1024px) {
+  .produto {
+    width: calc(25vw - 4rem);
+  }
+}

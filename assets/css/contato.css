@@ -57,9 +57,19 @@
     color: var(--branco);
     background-color: var(--azul);
     border: none;
-    padding: 1rem;
+    line-height: 1rem;
+    padding: .5rem;
+    cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
-    
+@media screen and (min-width:1024px) {
+    .formulario-contato{
+        margin-right: 5rem;
+    }
+
+    .formulario-contato__submit {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 1rem;
+    }
 }
