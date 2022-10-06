@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Alura Geek</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/css/reset.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="assets/css/login.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <h1 class="cabecalho__titulo">
+            <img src="assets/img/Logo.svg" alt="Alura Geek" />
+        </h1>
+
+        <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
+
+        <button class="cabecalho__botao">Login</button>
+
+        <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
+
+    </header>
+
+    <main class="login">
+            <form action="" class="formulario-login">
+                <h2 class="formulario-login__titulo">Iniciar Sessão</h2>
+                <input type="email" name="email" id="email" class="formulario-login__input"
+                    placeholder="Escreva seu email">
+                <input type="password" name="senha" id="senha" class="formulario-login__input"
+                    placeholder="Escreva sua senha">
+                <input type="submit" value="Entrar" class="formulario-login__submit">
+            </form>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__infomacoes">
+
+            <h2 class="cabecalho__rodape">
+                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            </h2>
+
+            <nav class="rodape__menu">
+                <ul class="rodape__menu__lista">
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Quem somos nós</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Política de privacidade</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Programa fidelidade</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Nossas lojas</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Quero ser franqueado</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Anuncie aqui</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <form class="formulario-contato">
+            <h2 class="formulario-contato__titulo">Fale conosco</h2>
+
+            <input type="text" id="nome" name="nome" class="formulario-contato__nome" placeholder="Nome" />
+
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"
+                class="formulario-contato__mensagem"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="formulario-contato__submit" />
+        </form>
+        <div class="desenvolvedor">
+            <p>Desenvolvido por Lucas Vinicius Pimenta</p>
+            <p>2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>

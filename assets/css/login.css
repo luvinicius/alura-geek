@@ -1,0 +1,123 @@
+@import url(cabecalho.css);
+@import url(rodape.css);
+@import url(contato.css);
+
+:root {
+    --fonte-principal: 'Raleway', sans-serif;
+
+    --branco: #FFF;
+    --cinza-claro: #F5F5F5;
+    --cinza-fraco: #C8C8C8;
+    --cinza-medio: #A2A2A2;
+    --cinza-fonte: #464646;
+    --azul-claro: #D4E4FA;
+    --azul: #2A7AE4;
+    --azul-medio: #5595E9;
+    --azul-claro: #EAF2FD;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--branco);
+
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-forte);
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    color: inherit;
+}
+
+button {
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.login {
+    background-color: var(--cinza-claro);
+}
+
+.cabecalho__botao {
+    display: none;
+}
+
+.formulario-login {
+    width: 100%;
+    max-width: 17.2rem;
+    margin: 0 auto;
+    padding: 5.3rem 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.formulario-login__titulo {
+    font-weight: 700;
+    color: var(--cinza-fonte);
+    line-height: 1rem;
+    margin: .5rem 0;
+}
+
+.formulario-login__input {
+    background-color: var(--branco);
+    color: var(--cinza-fonte);
+    line-height: 1.25rem;
+    font-weight: 400;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid var(--cinza-fraco);
+    margin: .5rem 0;
+    border-radius: .25rem;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.formulario-login__input::placeholder {
+    color: var(--cinza-medio);
+    font-weight: 400;
+}
+
+.formulario-login__submit {
+    color: var(--branco);
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    background-color: var(--azul);
+    border: 0;
+    padding: 1rem 2rem;
+}
+
+@media screen and (min-width:1024px) {
+    .formulario-login {
+        max-width: 26.75rem;
+    }
+
+    .formulario-login__titulo {
+        font-size: 1.125rem;
+        line-height: 1.31rem;
+        margin: 1rem 0;
+    }
+
+    .formulario-login__input {
+        margin: 1rem 0;
+    }
+
+    .formulario-login__submit {
+        width: 100%;
+        font-size: 1.125rem;
+        line-height: 1.31rem;
+    }
+}
