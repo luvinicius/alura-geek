@@ -9,7 +9,7 @@ Alura's Front-End Challenge
 | :fire: Desafio     | https://www.alura.com.br/challenges/front-end-5?host=https://cursos.alura.com.br
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+![](https://github.com/luvinicius/alura-geek/blob/main/Preview.png?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
