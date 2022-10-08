@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Alura Geek</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="assets/css/reset.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="assets/css/editar_produto.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container cabecalho">
+
+        <h1 class="cabecalho__titulo">
+            <a href="./index.html">
+                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            </a>
+        </h1>
+
+        <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
+
+        <button class="botao botao-secundario" onclick="window.location.href='./produtos.html'">Menu administrador</button>
+
+        <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
+
+    </header>
+
+    <main class="container">
+        <form action="" class="formulario-produto">
+            <h2 class="formulario-produto__titulo">Adicionar novo produto</h2>
+            <div class="campo-primario">
+                <input type="url" id="url" name="url" class="entrada-primaria" required
+                    maxlength="256" />
+                    <label for="url" class="campo-primario__label">URL da imagem</label>
+            </div>
+            <div class="campo-primario">
+                <input type="text" id="nome" name="nome" class="entrada-primaria" required
+                    maxlength="256" />
+                    <label for="nome" class="campo-primario__label">Nome do produto</label>
+            </div>
+
+            <div class="campo-primario">
+                <label for="preco" class="campo-primario__prefixo" >
+                    R$
+                </label>
+                <input type="number" id="preco" name="preco" class="entrada-primaria" required
+                    maxlength="12" />
+                <label for="preco" class="campo-primario__label">Preço do produto</label>
+            </div>
+
+            <textarea id="descricao" name="descricao" placeholder="Descrição do produto" 
+            class="entrada-primaria" required
+                maxlength="528"></textarea>
+
+            <input type="submit" value="Adicionar produto" class="botao botao-primario">
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__infomacoes">
+
+            <h2 class="cabecalho__rodape">
+                <a href="./index.html">
+                    <img src="assets/img/Logo.svg" alt="Alura Geek" />
+                </a>
+            </h2>
+
+            <nav class="rodape__menu">
+                <ul class="rodape__menu__lista">
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Quem somos nós</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Política de privacidade</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Programa fidelidade</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Nossas lojas</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Quero ser franqueado</a>
+                    </li>
+                    <li class="rodape__menu__item">
+                        <a href="#" class="rodape__menu__link">Anuncie aqui</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <form class="formulario-contato" action="" method="post">
+            <h2 class="formulario-contato__titulo">Fale conosco</h2>
+            <div class="campo-primario">
+                <input type="text" id="nome" name="nome" class="entrada-primaria" placeholder="Nome" required
+                    maxlength="256" />
+                <label for="nome" class="campo-primario__label">Nome</label>
+            </div>
+
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" class="entrada-primaria" required
+                maxlength="528"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="botao botao-primario" />
+        </form>
+        <div class="desenvolvedor">
+            <p>Desenvolvido por Lucas Vinicius Pimenta</p>
+            <p>2023</p>
+        </div>
+    </footer>
+</body>
+
+</html>

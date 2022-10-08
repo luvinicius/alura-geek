@@ -109,6 +109,7 @@ ul {
 
 .campo-primario {
     position: relative;
+    width: 100%;
 }
 
 .campo-primario .entrada-primaria{
@@ -162,6 +163,8 @@ ul {
         transition: 400ms;
     }
 
-    
+    .entrada-primaria {
+        margin-bottom: 2rem 0;
+    }
 
 }

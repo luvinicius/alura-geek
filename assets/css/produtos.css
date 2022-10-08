@@ -34,6 +34,27 @@ main {
     margin: 1rem 0;
 }
 
+.produto{
+    position: relative;
+    z-index: 1;
+  }
+
+.produto__opcoes {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    width: fit-content;
+}
+.produto_botao{
+    display: block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    z-index: 2;
+}
 @media screen and (min-width:768px) {
     .cabecalho-main{
         flex-direction: row;

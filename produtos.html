@@ -26,8 +26,6 @@
 
         <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
 
-        <button class="botao botao-secundario" onclick="window.location.href='./login.html'">Login</button>
-
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
     </header>
@@ -37,11 +35,15 @@
         <div class="cabecalho-main">
             <h2 class="titulo">Todos os produtos</h2>
 
-            <button class="botao botao-primario">Adicionar produto</button>
+            <button class="botao botao-primario" onclick="window.location.href='./produto.html'">Adicionar produto</button>
         </div>
         <ul class="produtos agrupa6">
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=1'">
+                    </div>
                     <img src="assets/img/produtos/starwars1.png" srcset="assets/img/produtos/starwars1.png 320w, 
                             assets/img/produtos/starwars1@2x.png 768w, 
                             assets/img/produtos/starwars1@3x.png 1024w"
@@ -54,6 +56,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=2'">
+                    </div>
                     <img src="assets/img/produtos/starwars2.png" srcset="assets/img/produtos/starwars2.png 320w, 
                             assets/img/produtos/starwars2@2x.png 768w, 
                             assets/img/produtos/starwars2@3x.png 1024w" alt="Estatueta lego Darth Vader"
@@ -66,6 +72,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=3'">
+                    </div>
                     <img src="assets/img/produtos/starwars3.png" srcset="assets/img/produtos/starwars3.png 320w, 
                             assets/img/produtos/starwars3@2x.png 768w, 
                             assets/img/produtos/starwars3@3x.png 1024w" alt="Estatueta Yoda" class="produto__imagem">
@@ -77,6 +87,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=4'">
+                    </div>
                     <img src="assets/img/produtos/starwars4.png" srcset="assets/img/produtos/starwars4.png 320w, 
                             assets/img/produtos/starwars4@2x.png 768w, 
                             assets/img/produtos/starwars4@3x.png 1024w" alt="Figure Action Stormtrooper"
@@ -89,6 +103,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=5'">
+                    </div>
                     <img src="assets/img/produtos/starwars5.png" 
                     srcset="assets/img/produtos/starwars5.png 320w, 
                             assets/img/produtos/starwars5@2x.png 768w, 
@@ -102,6 +120,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=6'">
+                    </div>
                     <img src="assets/img/produtos/starwars6.png" 
                     srcset="assets/img/produtos/starwars6.png 320w, 
                             assets/img/produtos/starwars6@2x.png 768w, 
@@ -115,6 +137,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=7'">
+                    </div>
                     <img src="assets/img/produtos/console1.png" srcset="assets/img/produtos/console1.png 320w, 
                             assets/img/produtos/console1@2x.png 768w, 
                             assets/img/produtos/console1@3x.png 1024w" alt="Controle XBox Branco"
@@ -127,6 +153,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=8'">
+                    </div>
                     <img src="assets/img/produtos/console2.png" srcset="assets/img/produtos/console2.png 320w, 
                             assets/img/produtos/console2@2x.png 768w, 
                             assets/img/produtos/console2@3x.png 1024w" alt="Controle e console PS5"
@@ -139,6 +169,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=9'">
+                    </div>
                     <img src="assets/img/produtos/console3.png" srcset="assets/img/produtos/console3.png 320w, 
                             assets/img/produtos/console3@2x.png 768w, 
                             assets/img/produtos/console3@3x.png 1024w" alt="Nintendo Entertainment System"
@@ -151,6 +185,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=10'">
+                    </div>
                     <img src="assets/img/produtos/console4.png" srcset="assets/img/produtos/console4.png 320w, 
                             assets/img/produtos/console4@2x.png 768w, 
                             assets/img/produtos/console4@3x.png 1024w" alt="Controles Nintendo Switch"
@@ -163,6 +201,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=11'">
+                    </div>
                     <img src="assets/img/produtos/console5.png" 
                     srcset="assets/img/produtos/console5.png 320w, 
                             assets/img/produtos/console5@2x.png 768w, 
@@ -176,6 +218,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=12'">
+                    </div>
                     <img src="assets/img/produtos/console6.png" 
                     srcset="assets/img/produtos/console6.png 320w, 
                             assets/img/produtos/console6@2x.png 768w, 
@@ -189,6 +235,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=13'">
+                    </div>
                     <img src="assets/img/produtos/diversos1.png" srcset="assets/img/produtos/diversos1.png 320w, 
                             assets/img/produtos/diversos1@2x.png 768w, 
                             assets/img/produtos/diversos1@3x.png 1024w" alt="Camisa Atari" class="produto__imagem">
@@ -200,6 +250,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=14'">
+                    </div>
                     <img src="assets/img/produtos/diversos2.png" srcset="assets/img/produtos/diversos2.png 320w, 
                             assets/img/produtos/diversos2@2x.png 768w, 
                             assets/img/produtos/diversos2@3x.png 1024w" alt="Camisa SNES" class="produto__imagem">
@@ -211,6 +265,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=15'">
+                    </div>
                     <img src="assets/img/produtos/diversos3.png" srcset="assets/img/produtos/diversos3.png 320w, 
                             assets/img/produtos/diversos3@2x.png 768w, 
                             assets/img/produtos/diversos3@3x.png 1024w" alt="Estatueta Sonic" class="produto__imagem">
@@ -222,6 +280,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=16'">
+                    </div>
                     <img src="assets/img/produtos/diversos4.png" srcset="assets/img/produtos/diversos4.png 320w, 
                             assets/img/produtos/diversos4@2x.png 768w, 
                             assets/img/produtos/diversos4@3x.png 1024w" alt="Rádio Relôgio Retrô Rosa"
@@ -234,6 +296,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=17'">
+                    </div>
                     <img src="assets/img/produtos/diversos5.png" 
                     srcset="assets/img/produtos/diversos5.png 320w, 
                             assets/img/produtos/diversos5@2x.png 768w, 
@@ -247,6 +313,10 @@
             </li>
             <li>
                 <article class="produto">
+                    <div class="produto__opcoes">
+                        <img src="assets/img/excluir.svg" alt="Excluir Produto" class="produto_botao" onclick="this.parentNode.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode.parentNode)">
+                        <img src="assets/img/editar.svg" alt="Editar Produto" class="produto_botao" onclick="window.location.href='./produto.html?id=18'">
+                    </div>
                     <img src="assets/img/produtos/diversos6.png" 
                     srcset="assets/img/produtos/diversos6.png 320w, 
                             assets/img/produtos/diversos6@2x.png 768w, 
