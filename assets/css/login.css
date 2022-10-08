@@ -26,22 +26,6 @@
     margin: .5rem 0;
 }
 
-
-.formulario-login__input::placeholder {
-    color: var(--cinza-medio);
-    font-weight: 400;
-}
-
-.formulario-login__submit {
-    color: var(--branco);
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 1rem;
-    background-color: var(--azul);
-    border: 0;
-    padding: 1rem 2rem;
-}
-
 @media screen and (min-width:1024px) {
     .formulario-login {
         max-width: 26.75rem;
@@ -52,11 +36,7 @@
         line-height: 1.31rem;
         margin: 1rem 0;
     }
-
-    .entrada-primaria {
-        margin: 1rem 0;
-    }
-
+    
     .formulario-login .botao {
         width: 100%;
     }

@@ -21,10 +21,13 @@
   margin-bottom: .5rem;
 }
 
-.produto__nome {
+.produto__id, .produto__nome {
   font-weight: 500;
   font-size: .875rem;
   line-height: 1rem;
+}
+
+.produto__nome {
   margin-bottom: .5rem;
 }
 
