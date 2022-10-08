@@ -1,6 +1,6 @@
 .banner {
   padding-top: 4.875rem;
-  background: url("/assets/img/banner-bg.png") no-repeat;
+  background: url(../img/banner-bg.png) no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   color: var(--branco);
