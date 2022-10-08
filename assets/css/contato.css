@@ -4,72 +4,14 @@
 }
 
 .formulario-contato__titulo {
-    
     font-weight: 700;
     color: var(--cinza-fonte);
     margin-bottom: 1rem;
     line-height: 1.25rem;
 }
 
-.formulario-contato__nome {
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--cinza-fonte);
-    background-color: var(--branco);
-    border: 0;
-    border-bottom: 1px solid var(--cinza-fraco);
-
-    border-radius: 5px;
-    padding: 1rem;
-
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.formulario-contato__nome::placeholder {
-    font-size: 0.75rem;
-    color: var(--cinza-medio);
-}
-
-.formulario-contato__mensagem {
-    display: block;
-    font-size: 1rem;
-    font-weight: 400;
-    color: var(--cinza-fonte);
-    background-color: var(--branco);
-    border: none;
-    border-bottom: solid 1px var(--cinza-fraco);
-    border-radius: 5px;
-    padding: 1rem;
-    margin: 1rem 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.formulario-contato__mensagem::placeholder {
-    color: var(--cinza-medio);
-}
-
-.formulario-contato__submit {
-    display: block;
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--branco);
-    background-color: var(--azul);
-    border: none;
-    line-height: 1rem;
-    padding: .5rem;
-    cursor: pointer;
-}
-
 @media screen and (min-width:1024px) {
     .formulario-contato{
         margin-right: 5rem;
-    }
-
-    .formulario-contato__submit {
-        font-size: 1rem;
-        font-weight: 400;
-        padding: 1rem;
     }
 }

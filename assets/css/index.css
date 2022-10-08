@@ -1,51 +1,7 @@
+@import url(base.css);
 @import url(cabecalho.css);
 @import url(banner.css);
 @import url(categoria.css);
 @import url(produto.css);
 @import url(rodape.css);
 @import url(contato.css);
-
-:root {
-    --fonte-principal: 'Raleway', sans-serif;
-
-    --branco: #FFF;
-    --cinza-claro: #F5F5F5;
-    --cinza-fraco:#C8C8C8;
-    --cinza-medio: #A2A2A2;
-    --cinza-fonte: #464646;
-    --azul-claro: #D4E4FA;
-    --azul: #2A7AE4;
-    --azul-medio: #5595E9;
-    --azul-claro:#EAF2FD;
-}
-
-body {
-    font-family: var(--fonte-principal);
-    background-color: var(--branco);
-
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--cinza-forte);
-    box-sizing: border-box;
-}
-
-input,
-button,
-textarea,
-select {
-    font-family: inherit;
-    color: inherit;
-}
-
-button {
-    background-color: transparent;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-}

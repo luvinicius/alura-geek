@@ -16,37 +16,40 @@
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="container cabecalho">
 
         <h1 class="cabecalho__titulo">
-            <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            <a href="./index.html">
+                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            </a>
         </h1>
 
         <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
 
-        <button class="cabecalho__botao" onclick="window.location.href='./login.html'">Login</button>
+        <button class="botao botao-secundario" onclick="window.location.href='./login.html'">Login</button>
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
     </header>
+    
+    <div class="container banner">
+        <h2 class="banner__titulo">Dezembro Promocional</h2>
+        <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
+        <a href="#consoles" class="botao botao-primario">Ver Consoles</a>
+    </div>
 
-    <main>
-        <div class="banner">
-            <h2 class="banner__titulo">Dezembro Promocional</h2>
-            <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
-            <a href="#" class="banner__link">Ver Consoles</a>
-        </div>
-        <section class="categoria">
+    <main class="container">
+        <section class="categoria" id="starWars">
             <div class="categoria__info">
                 <h2 class="categoria__titulo">Star Wars</h2>
-                <a href="#" class="categoria__link">
+                <a href="./produtos.html" class="categoria__link hover-scale">
                     Ver tudo
                     <img src="assets/img/arrow.svg" alt="&rarr;" class="categoria_image-link">
                 </a>
             </div>
-            <ul class="categoria__produtos">
-                <li class="produto">
-                    <article>
+            <ul class="produtos">
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/starwars1.png" srcset="assets/img/produtos/starwars1.png 320w, 
                                 assets/img/produtos/starwars1@2x.png 768w, 
                                 assets/img/produtos/starwars1@3x.png 1024w"
@@ -57,8 +60,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/starwars2.png" srcset="assets/img/produtos/starwars2.png 320w, 
                                 assets/img/produtos/starwars2@2x.png 768w, 
                                 assets/img/produtos/starwars2@3x.png 1024w" alt="Estatueta lego Darth Vader"
@@ -69,8 +72,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/starwars3.png" srcset="assets/img/produtos/starwars3.png 320w, 
                                 assets/img/produtos/starwars3@2x.png 768w, 
                                 assets/img/produtos/starwars3@3x.png 1024w" alt="Estatueta Yoda"
@@ -81,8 +84,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/starwars4.png" srcset="assets/img/produtos/starwars4.png 320w, 
                                 assets/img/produtos/starwars4@2x.png 768w, 
                                 assets/img/produtos/starwars4@3x.png 1024w" alt="Figure Action Stormtrooper"
@@ -96,17 +99,17 @@
             </ul>
         </section>
 
-        <section class="categoria">
+        <section class="categoria" id="consoles">
             <div class="categoria__info">
                 <h2 class="categoria__titulo">Consoles</h2>
-                <a href="#" class="categoria__link">
+                <a href="./produtos.html" class="categoria__link">
                     Ver tudo
                     <img src="assets/img/arrow.svg" alt="&rarr;" class="categoria_image-link">
                 </a>
             </div>
-            <ul class="categoria__produtos">
-                <li class="produto">
-                    <article>
+            <ul class="produtos">
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/console1.png" srcset="assets/img/produtos/console1.png 320w, 
                                 assets/img/produtos/console1@2x.png 768w, 
                                 assets/img/produtos/console1@3x.png 1024w" alt="Controle XBox Branco"
@@ -117,8 +120,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/console2.png" srcset="assets/img/produtos/console2.png 320w, 
                                 assets/img/produtos/console2@2x.png 768w, 
                                 assets/img/produtos/console2@3x.png 1024w" alt="Controle e console PS5"
@@ -129,8 +132,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/console3.png" srcset="assets/img/produtos/console3.png 320w, 
                                 assets/img/produtos/console3@2x.png 768w, 
                                 assets/img/produtos/console3@3x.png 1024w" alt="Nintendo Entertainment System"
@@ -141,8 +144,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/console4.png" srcset="assets/img/produtos/console4.png 320w, 
                                 assets/img/produtos/console4@2x.png 768w, 
                                 assets/img/produtos/console4@3x.png 1024w" alt="Controles Nintendo Switch"
@@ -156,17 +159,17 @@
             </ul>
         </section>
 
-        <section class="categoria">
+        <section class="categoria" id="diversos">
             <div class="categoria__info">
                 <h2 class="categoria__titulo">Diversos</h2>
-                <a href="#" class="categoria__link">
+                <a href="./produtos.html" class="categoria__link">
                     Ver tudo
                     <img src="assets/img/arrow.svg" alt="&rarr;" class="categoria_image-link">
                 </a>
             </div>
-            <ul class="categoria__produtos">
-                <li class="produto">
-                    <article>
+            <ul class="produtos">
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/diversos1.png" srcset="assets/img/produtos/diversos1.png 320w, 
                                 assets/img/produtos/diversos1@2x.png 768w, 
                                 assets/img/produtos/diversos1@3x.png 1024w" alt="Camisa Atari" class="produto__imagem">
@@ -176,8 +179,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/diversos2.png" srcset="assets/img/produtos/diversos2.png 320w, 
                                 assets/img/produtos/diversos2@2x.png 768w, 
                                 assets/img/produtos/diversos2@3x.png 1024w" alt="Camisa SNES" class="produto__imagem">
@@ -187,8 +190,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/diversos3.png" srcset="assets/img/produtos/diversos3.png 320w, 
                                 assets/img/produtos/diversos3@2x.png 768w, 
                                 assets/img/produtos/diversos3@3x.png 1024w" alt="Estatueta Sonic"
@@ -199,8 +202,8 @@
                         <a href="#" class="produto__link">Ver produto</a>
                     </article>
                 </li>
-                <li class="produto">
-                    <article>
+                <li>
+                    <article class="produto">
                         <img src="assets/img/produtos/diversos4.png" srcset="assets/img/produtos/diversos4.png 320w, 
                                 assets/img/produtos/diversos4@2x.png 768w, 
                                 assets/img/produtos/diversos4@3x.png 1024w" alt="Rádio Relôgio Retrô Rosa"
@@ -218,7 +221,9 @@
         <div class="rodape__infomacoes">
 
             <h2 class="cabecalho__rodape">
-                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+                <a href="./index.html">
+                    <img src="assets/img/Logo.svg" alt="Alura Geek" />
+                </a>
             </h2>
 
             <nav class="rodape__menu">
@@ -245,14 +250,16 @@
             </nav>
             
         </div>
-        <form class="formulario-contato">
+        <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
-
-            <input type="text" id="nome" name="nome" class="formulario-contato__nome" placeholder="Nome" />
+            <div class="campo-primario">
+                <input type="text" id="nome" name="nome" class="entrada-primaria" placeholder="Nome" required maxlength="256"/>
+                <label for="nome" class="campo-primario__label">Nome</label>
+            </div>
 
             <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"
-                class="formulario-contato__mensagem"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="formulario-contato__submit" />
+                class="entrada-primaria" required maxlength="528"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="botao botao-primario" />
         </form>
         <div class="desenvolvedor">
             <p>Desenvolvido por Lucas Vinicius Pimenta</p>

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Alura Geek</title>
+    <title>Login :: Alura Geek</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,35 +16,37 @@
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="container cabecalho">
 
         <h1 class="cabecalho__titulo">
-            <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            <a href="./index.html">
+                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+            </a>
         </h1>
 
         <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
-
-        <button class="cabecalho__botao">Login</button>
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
     </header>
 
-    <main class="login">
+    <main class="container login">
             <form action="" class="formulario-login">
                 <h2 class="formulario-login__titulo">Iniciar Sessão</h2>
-                <input type="email" name="email" id="email" class="formulario-login__input"
-                    placeholder="Escreva seu email">
-                <input type="password" name="senha" id="senha" class="formulario-login__input"
-                    placeholder="Escreva sua senha">
-                <input type="submit" value="Entrar" class="formulario-login__submit">
+                <input type="email" name="email" id="email" class="entrada-primaria"
+                    placeholder="Escreva seu email" required>
+                <input type="password" name="senha" id="senha" class="entrada-primaria"
+                    placeholder="Escreva sua senha" required>
+                <input type="submit" value="Entrar" class="botao botao-primario">
             </form>
     </main>
     <footer class="rodape">
         <div class="rodape__infomacoes">
 
             <h2 class="cabecalho__rodape">
-                <img src="assets/img/Logo.svg" alt="Alura Geek" />
+                <a href="./index.html">
+                    <img src="assets/img/Logo.svg" alt="Alura Geek" />
+                </a>
             </h2>
 
             <nav class="rodape__menu">
@@ -69,16 +71,18 @@
                     </li>
                 </ul>
             </nav>
-
+            
         </div>
-        <form class="formulario-contato">
+        <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
-
-            <input type="text" id="nome" name="nome" class="formulario-contato__nome" placeholder="Nome" />
+            <div class="campo-primario">
+                <input type="text" id="nome" name="nome" class="entrada-primaria" placeholder="Nome" required maxlength="256"/>
+                <label for="nome" class="campo-primario__label">Nome</label>
+            </div>
 
             <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"
-                class="formulario-contato__mensagem"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="formulario-contato__submit" />
+                class="entrada-primaria" required maxlength="528"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="botao botao-primario" />
         </form>
         <div class="desenvolvedor">
             <p>Desenvolvido por Lucas Vinicius Pimenta</p>
