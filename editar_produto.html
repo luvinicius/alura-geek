@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/editar_produto.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,26 +26,41 @@
 
         <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
 
-        <button class="botao botao-secundario" onclick="window.location.href='./login.html'">Login</button>
+        <button class="botao botao-secundario" onclick="window.location.href='./produtos.html'">Menu administrador</button>
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
     </header>
 
     <main class="container">
-        <section class="detalhes-produtos">
-            <img src="assets/img/produtos/starwars1.png" srcset="assets/img/produtos/starwars1.png 320w, 
-            assets/img/produtos/starwars1@2x.png 768w, 
-            assets/img/produtos/starwars1@3x.png 1024w" alt="Imagem de uma Caneta com rosto de Stormtropper"
-                class="imagem_produto">
+        <form action="" class="formulario-produto">
+            <h2 class="formulario-produto__titulo">Adicionar novo produto</h2>
+            <div class="campo-primario">
+                <input type="url" id="url" name="url" class="entrada-primaria" required
+                    maxlength="256" />
+                    <label for="url" class="campo-primario__label">URL da imagem</label>
+            </div>
+            <div class="campo-primario">
+                <input type="text" id="nome" name="nome" class="entrada-primaria" required
+                    maxlength="256" />
+                    <label for="nome" class="campo-primario__label">Nome do produto</label>
+            </div>
 
-                <h2 class="nome_produto">
-                    
-                </h2>
-        </section>
-        <section class="produtos-similares">
+            <div class="campo-primario">
+                <label for="preco" class="campo-primario__prefixo" >
+                    R$
+                </label>
+                <input type="number" id="preco" name="preco" class="entrada-primaria" required
+                    maxlength="12" />
+                <label for="preco" class="campo-primario__label">Preço do produto</label>
+            </div>
 
-        </section>
+            <textarea id="descricao" name="descricao" placeholder="Descrição do produto" 
+            class="entrada-primaria" required
+                maxlength="528"></textarea>
+
+            <input type="submit" value="Adicionar produto" class="botao botao-primario">
+        </form>
     </main>
 
     <footer class="rodape">

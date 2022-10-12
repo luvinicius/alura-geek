@@ -1,0 +1,10 @@
+@import url(base.css);
+@import url(cabecalho.css);
+@import url(banner.css);
+@import url(rodape.css);
+@import url(contato.css);
+
+main{
+    background-color: var(--cinzaE5);
+    color: var(--cinza-fonte);
+}

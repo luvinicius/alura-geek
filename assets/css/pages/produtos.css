@@ -10,13 +10,15 @@ main {
     background-color: var(--cinzaE5);
     color: var(--cinza-fonte);
 }
-.cabecalho-main{
+
+.cabecalho-main {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
     margin: 2rem 0;
 }
+
 .titulo {
     font-weight: 700;
     font-size: 1.375rem;
@@ -34,10 +36,10 @@ main {
     margin: 1rem 0;
 }
 
-.produto{
+.produto {
     position: relative;
     z-index: 1;
-  }
+}
 
 .produto__opcoes {
     position: absolute;
@@ -48,23 +50,26 @@ main {
     gap: 1rem;
     width: fit-content;
 }
-.produto_botao{
+
+.produto_botao {
     display: block;
     background-color: transparent;
     border: 0;
     cursor: pointer;
     z-index: 2;
 }
+
 @media screen and (min-width:768px) {
-    .cabecalho-main{
+    .cabecalho-main {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
 }
+
 @media screen and (min-width:1024px) {
     .titulo {
         font-size: 2rem;
         line-height: 2.375rem;
-    } 
+    }
 }
