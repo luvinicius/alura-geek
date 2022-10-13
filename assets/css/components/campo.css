@@ -1,18 +1,18 @@
-.campo-primario {
+.campo {
     position: relative;
     width: 100%;
 }
 
-.campo-primario .entrada-primaria{
+.campo .entrada-primaria{
     transition: 400ms;
 }
 
-.campo-primario .entrada-primaria::placeholder {
+.campo .entrada-primaria::placeholder {
     font-size: 0.75rem;
     color: var(--cinza-medio);
 }
 
-.campo-primario__label{
+.campo__label{
     display: none;
     font-size: 0.75rem;
     color: var(--cinza-medio);
@@ -21,11 +21,11 @@
     top: 0;
 }
 
-.campo-primario .entrada-primaria:not(:placeholder-shown){
+.campo .entrada:not(:placeholder-shown){
     padding-top: 2rem;
 }
 
-.campo-primario .entrada-primaria:not(:placeholder-shown) + .campo-primario__label{
+.campo .entrada:not(:placeholder-shown) + .campo__label{
     display: inline;
     top: 1rem;
 }

@@ -29,24 +29,5 @@
 
     .cabecalho__input-pesquisa {
         display: block;
-        font-size: 1rem;
-        font-weight: 400;
-        color: var(--cinza-fonte);
-        background-color: var(--cinza-claro);
-        border: 0;
-        border-radius: 1rem;
-        padding: .5rem 0 .5rem 1rem;
-        margin-left: 1rem;
-        margin-right: auto;
-        width: 35%;
-        max-width: 24.6rem;
-    }
-
-    .cabecalho__input-pesquisa::placeholder {
-        font-size: 0.875rem;
-        color: var(--cinza-medio);
-        background: url(../img/Lupa-Input.svg) no-repeat;
-        background-position: 100%;
-        background-size: contain;
     }
 }

@@ -46,3 +46,15 @@
 .placeholder--lupa::placeholder {
     background: url(../img/Lupa-Input.svg) no-repeat;
 }
+
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+    .entrada {
+        margin-bottom: 2rem 0;
+    }
+}

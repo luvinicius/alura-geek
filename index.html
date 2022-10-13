@@ -12,7 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/pages/index.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -24,18 +25,20 @@
             </a>
         </h1>
 
-        <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
+        <input type="search"
+            class="entrada--arendondada placeholder--icone-a-direita placeholder--lupa cabecalho__input-pesquisa"
+            placeholder="O que deseja encontrar?" />
 
-        <button class="botao botao-secundario" onclick="window.location.href='./login.html'">Login</button>
+        <button class="botao botao--secundario" onclick="window.location.href='./login.html'">Login</button>
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
     </header>
-    
+
     <div class="container banner">
         <h2 class="banner__titulo">Dezembro Promocional</h2>
         <p class="banner__descricao">Produtos selecionados com 33% de desconto</p>
-        <a href="#consoles" class="botao botao-primario">Ver Consoles</a>
+        <a href="#consoles" class="botao botao--primario">Ver Consoles</a>
     </div>
 
     <main class="container">
@@ -248,19 +251,19 @@
                     </li>
                 </ul>
             </nav>
-            
+
         </div>
         <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
-            <div class="campo-primario">
-                <input type="text" id="nome" name="nome" class="entrada-primaria" placeholder="Nome" required maxlength="256"/>
-                <label for="nome" class="campo-primario__label">Nome</label>
+            <div class="campo">
+                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required
+                    maxlength="256" />
+                <label for="nome" class="campo__label">Nome</label>
             </div>
 
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"
-                aria-label="Escreva sua mensagem"
-                class="entrada-primaria" required maxlength="528"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="botao botao-primario" />
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" aria-label="Escreva sua mensagem"
+                class="entrada" required maxlength="528"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="botao botao--primario" />
         </form>
         <div class="desenvolvedor">
             <p>Desenvolvido por Lucas Vinicius Pimenta</p>

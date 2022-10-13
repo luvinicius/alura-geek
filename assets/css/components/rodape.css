@@ -18,8 +18,6 @@
 
 .desenvolvedor {
     text-align: center;
-    font-weight: 500;
-    color: var(--cinza-fonte);
     background-color: var(--branco);
     padding: 2rem;
 }
