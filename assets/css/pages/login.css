@@ -1,7 +1,10 @@
-@import url(base.css);
-@import url(cabecalho.css);
-@import url(rodape.css);
-@import url(contato.css);
+@import url(../base/base.css);
+@import url(../components/botao.css);
+@import url(../components/entrada.css);
+@import url(../components/campo.css);
+@import url(../components/cabecalho.css);
+@import url(../components/rodape.css);
+@import url(../components/contato.css);
 
 .login {
     background-color: var(--cinza-claro);

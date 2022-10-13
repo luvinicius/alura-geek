@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link href="assets/css/login.css" rel="stylesheet">
+    <link href="assets/css/pages/login.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +24,9 @@
             </a>
         </h1>
 
-        <input type="search" class="cabecalho__input-pesquisa" placeholder="O que deseja encontrar?" />
+        <input type="search"
+            class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
+            placeholder="O que deseja encontrar?" />
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
@@ -33,11 +35,11 @@
     <main class="container login">
             <form action="" class="formulario-login">
                 <h2 class="formulario-login__titulo">Iniciar Sessão</h2>
-                <input type="email" name="email" id="email" class="entrada-primaria"
+                <input type="email" name="email" id="email" class="entrada"
                     placeholder="Escreva seu email" required>
-                <input type="password" name="senha" id="senha" class="entrada-primaria"
+                <input type="password" name="senha" id="senha" class="entrada"
                     placeholder="Escreva sua senha" required>
-                <input type="submit" value="Entrar" class="botao botao-primario">
+                <input type="submit" value="Entrar" class="botao botao--primario">
             </form>
     </main>
     <footer class="rodape">
@@ -71,18 +73,19 @@
                     </li>
                 </ul>
             </nav>
-            
+
         </div>
         <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
-            <div class="campo-primario">
-                <input type="text" id="nome" name="nome" class="entrada-primaria" placeholder="Nome" required maxlength="256"/>
-                <label for="nome" class="campo-primario__label">Nome</label>
+            <div class="campo">
+                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required
+                    maxlength="256" />
+                <label for="nome" class="campo__label">Nome</label>
             </div>
 
-            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem"
-                class="entrada-primaria" required maxlength="528"></textarea>
-            <input type="submit" value="Enviar Mensagem" class="botao botao-primario" />
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" aria-label="Escreva sua mensagem"
+                class="entrada" required maxlength="528"></textarea>
+            <input type="submit" value="Enviar Mensagem" class="botao botao--primario" />
         </form>
         <div class="desenvolvedor">
             <p>Desenvolvido por Lucas Vinicius Pimenta</p>

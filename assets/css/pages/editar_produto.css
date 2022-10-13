@@ -1,8 +1,10 @@
-@import url(base.css);
-@import url(cabecalho.css);
-@import url(banner.css);
-@import url(rodape.css);
-@import url(contato.css);
+@import url(../base/base.css);
+@import url(../components/botao.css);
+@import url(../components/entrada.css);
+@import url(../components/campo.css);
+@import url(../components/cabecalho.css);
+@import url(../components/rodape.css);
+@import url(../components/contato.css);
 
 .container{
     background-color: var(--cinza-claro);
@@ -31,13 +33,13 @@
     width: 100%;
 }
 
-.campo-primario__prefixo{
+.campo__prefixo{
     position: absolute;
     left: 1rem;
     bottom: 1.6rem;
     width: 2.5rem;
 }
-.campo-primario__prefixo + .entrada-primaria{
+.campo__prefixo + .entrada{
     padding-left: 2.5rem;
 }
 
@@ -52,5 +54,7 @@
         line-height: 1.31rem;
         margin: 1rem 0;
     }
-
+    .campo__prefixo{
+        bottom: 3.2rem;
+    }
 }

@@ -1,0 +1,12 @@
+@import url(../base/base.css);
+@import url(../components/botao.css);
+@import url(../components/entrada.css);
+@import url(../components/campo.css);
+@import url(../components/cabecalho.css);
+@import url(../components/rodape.css);
+@import url(../components/contato.css);
+
+main{
+    background-color: var(--cinzaE5);
+    color: var(--cinza-fonte);
+}

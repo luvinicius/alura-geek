@@ -35,26 +35,19 @@
     max-width: 24.6rem;
 }
 
-.placeholder--icone-a-direita::placeholder{
-    font-size: 0.875rem;
+.entrada--arendondada::placeholder{
     color: var(--cinza-medio);
-    
-    background-position: right;
+    font-size: 0.875rem;
+}
+
+.lupa-a-direita::placeholder {
+    background: url(../../img/Lupa-Input.svg) no-repeat;
+    background-position: 100%;
     background-size: contain;
 }
 
-.placeholder--lupa::placeholder {
-    background: url(../img/Lupa-Input.svg) no-repeat;
-}
-
-@media screen and (min-width: 768px) {
-    
-}
-@media screen and (min-width: 992px) {
-}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     .entrada {
-        margin-bottom: 2rem 0;
+        margin-bottom: 2rem;
     }
 }
