@@ -24,11 +24,11 @@
             </a>
         </h1>
 
-        <input type="search"
-            class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
+        <input type="search" class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
             placeholder="O que deseja encontrar?" />
 
-            <button class="botao botao--secundario" onclick="window.location.href='./produtos.html'">Menu administrador</button>
+        <button class="botao botao--secundario" onclick="window.location.href='./produtos.html'">Menu
+            administrador</button>
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
 
@@ -38,37 +38,34 @@
         <form action="" class="formulario-produto">
             <h2 class="formulario-produto__titulo">Adicionar novo produto</h2>
             <div class="campo">
-                <input type="url" id="url" name="url" class="entrada" required
-                    maxlength="256" />
-                    <label for="url" class="campo__label">URL da imagem</label>
-            </div>
-            <div class="campo">
-                <input type="text" id="nome" name="nome" class="entrada" required
-                    maxlength="256" />
-                    <label for="nome" class="campo__label">Nome do produto</label>
+                <input type="url" id="url" name="url" class="entrada" required maxlength="256" />
+                <label for="url" class="campo__label">URL da imagem</label>
             </div>
             <div class="campo">
                 <select class="entrada" id="categoria" required>
                     <option value=""></option>
                     <option value="0">Star Wars</option>
-                    <option value="1">Console</option>
+                    <option value="1">Consoles</option>
                     <option value="2">Diversos</option>
                 </select>
                 <label for="categoria" class="campo__label">Categoria</label>
             </div>
+            <div class="campo">
+                <input type="text" id="nome" name="nome" class="entrada" required maxlength="256" />
+                <label for="nome" class="campo__label">Nome do produto</label>
+            </div>
+
 
             <div class="campo">
-                <label for="preco" class="campo__prefixo" >
+                <label for="preco" class="campo__prefixo">
                     R$
                 </label>
-                <input type="number" id="preco" name="preco" class="entrada" required
-                    maxlength="12" min="0"/>
+                <input type="number" id="preco" name="preco" class="entrada" required maxlength="12" min="0" />
                 <label for="preco" class="campo__label">Preço do produto</label>
             </div>
 
-            <textarea id="descricao" name="descricao" placeholder="Descrição do produto" 
-            class="entrada" required
-                maxlength="528"></textarea>
+            <textarea id="descricao" name="descricao" placeholder="Descrição do produto" class="entrada" required
+                aria-label="Descrição do produto" maxlength="528"></textarea>
 
             <input type="submit" value="Adicionar produto" class="botao botao--primario">
         </form>
@@ -110,8 +107,7 @@
         <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
             <div class="campo">
-                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required
-                    maxlength="256" />
+                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required maxlength="256" />
                 <label for="nome" class="campo__label">Nome</label>
             </div>
 
