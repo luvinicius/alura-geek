@@ -3,10 +3,14 @@
 @import url(../components/entrada.css);
 @import url(../components/campo.css);
 @import url(../components/cabecalho.css);
+@import url(../components/detalhe_produto.css);
+@import url(../components/produtos_similares.css);
+@import url(../components/produto.css);
 @import url(../components/rodape.css);
 @import url(../components/contato.css);
 
-main{
+main {
     background-color: var(--cinzaE5);
     color: var(--cinza-fonte);
 }
+

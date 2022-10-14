@@ -24,8 +24,7 @@
             </a>
         </h1>
 
-        <input type="search"
-            class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
+        <input type="search" class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
             placeholder="O que deseja encontrar?" />
 
         <button class="botao botao--secundario" onclick="window.location.href='./login.html'">Login</button>
@@ -34,19 +33,105 @@
 
     </header>
 
-    <main class="container">
+    <main>
         <section class="detalhes-produtos">
-            <img src="assets/img/produtos/starwars1.png" srcset="assets/img/produtos/starwars1.png 320w, 
+            <div class="detalhes-produtos__container-imagem">
+                <img src="assets/img/produtos/starwars1.png" srcset="assets/img/produtos/starwars1.png 320w, 
             assets/img/produtos/starwars1@2x.png 768w, 
-            assets/img/produtos/starwars1@3x.png 1024w" alt="Imagem de uma Caneta com rosto de Stormtropper"
-                class="imagem_produto">
+            assets/img/produtos/starwars1@3x.png 1024w" alt="Caneta com rosto de Stormtropper"
+                    class="detalhes-produtos__imagem">
+            </div>
+            <div class="detalhes-produtos__informacoes">
 
-                <h2 class="nome_produto">
-                    
+                <h2 class="detalhes-produtos__nome">
+                    Caneca Stormtropper
                 </h2>
+                <p class="detalhes-produtos__preco">RS 60,00</p>
+                <p class="detalhes-produtos__descricao">Voluptas voluptatum quibusdam similique, class debitis alias
+                    maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse
+                    distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae?
+                    Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi
+                    porta anim magnam</p>
+            </div>
         </section>
-        <section class="produtos-similares">
+        <section class="container produtos-similares">
+            <h2 class="produtos-similares__titulo">
+                Produtos similares
+            </h2>
+            <ul class="produtos agrupa6">
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/console1.png" srcset="assets/img/produtos/console1.png 320w, 
+                                assets/img/produtos/console1@2x.png 768w, 
+                                assets/img/produtos/console1@3x.png 1024w" alt="Controle XBox Branco"
+                            class="produto__imagem">
 
+                        <h3 class="produto__nome">Controle XBox Branco</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=7" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/starwars2.png" srcset="assets/img/produtos/starwars2.png 320w, 
+                                assets/img/produtos/starwars2@2x.png 768w, 
+                                assets/img/produtos/starwars2@3x.png 1024w" alt="Estatueta lego Darth Vader"
+                            class="produto__imagem">
+
+                        <h3 class="produto__nome">Lego Star Wars</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=2" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/starwars3.png" srcset="assets/img/produtos/starwars3.png 320w, 
+                                assets/img/produtos/starwars3@2x.png 768w, 
+                                assets/img/produtos/starwars3@3x.png 1024w" alt="Estatueta Yoda"
+                            class="produto__imagem">
+
+                        <h3 class="produto__nome">Estatueta Yoda</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=3" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/starwars4.png" srcset="assets/img/produtos/starwars4.png 320w, 
+                                assets/img/produtos/starwars4@2x.png 768w, 
+                                assets/img/produtos/starwars4@3x.png 1024w" alt="Figure Action Stormtrooper"
+                            class="produto__imagem">
+
+                        <h3 class="produto__nome">Figure Action Stormtrooper</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=4" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/starwars5.png" srcset="assets/img/produtos/starwars5.png 320w, 
+                                assets/img/produtos/starwars5@2x.png 768w, 
+                                assets/img/produtos/starwars5@3x.png 1024w" alt="Boneco Baby Yoda"
+                            class="produto__imagem">
+
+                        <h3 class="produto__nome">Boneco Baby Yoda</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=5" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+                <li>
+                    <article class="produto">
+                        <img src="assets/img/produtos/starwars6.png" srcset="assets/img/produtos/starwars6.png 320w, 
+                                assets/img/produtos/starwars6@2x.png 768w, 
+                                assets/img/produtos/starwars6@3x.png 1024w" alt="Figure Action Knight of Ren"
+                            class="produto__imagem">
+
+                        <h3 class="produto__nome">Knight of Ren</h3>
+                        <p class="produto__preco">RS 60,00</p>
+                        <a href="./produto.html?id=6" class="produto__link">Ver produto</a>
+                    </article>
+                </li>
+            </ul>
         </section>
     </main>
 
@@ -86,8 +171,7 @@
         <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
             <div class="campo">
-                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required
-                    maxlength="256" />
+                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required maxlength="256" />
                 <label for="nome" class="campo__label">Nome</label>
             </div>
 
