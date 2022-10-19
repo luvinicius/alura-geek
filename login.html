@@ -7,12 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="assets/css/reset.css" rel="stylesheet">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="assets/css/pages/login.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -24,8 +23,7 @@
             </a>
         </h1>
 
-        <input type="search"
-            class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
+        <input type="search" class="entrada--arendondada lupa-a-direita cabecalho__input-pesquisa"
             placeholder="O que deseja encontrar?" />
 
         <img src="assets/img/Lupa.svg" class="cabecalho__botao-pesquisa" alt="Pesquisar" />
@@ -33,14 +31,12 @@
     </header>
 
     <main class="container login">
-            <form action="" class="formulario-login">
-                <h2 class="formulario-login__titulo">Iniciar Sessão</h2>
-                <input type="email" name="email" id="email" class="entrada"
-                    placeholder="Escreva seu email" required>
-                <input type="password" name="senha" id="senha" class="entrada"
-                    placeholder="Escreva sua senha" required>
-                <input type="submit" value="Entrar" class="botao botao--primario">
-            </form>
+        <form id="formLogin" action="" class="formulario-login">
+            <h2 class="formulario-login__titulo">Iniciar Sessão</h2>
+            <input type="email" name="email" id="email" class="entrada" placeholder="Escreva seu email" required>
+            <input type="password" name="senha" id="senha" class="entrada" placeholder="Escreva sua senha" required>
+            <input type="submit" value="Entrar" class="botao botao--primario">
+        </form>
     </main>
     <footer class="rodape">
         <div class="rodape__infomacoes">
@@ -75,11 +71,11 @@
             </nav>
 
         </div>
+        <ul class="messages"></ul>
         <form class="formulario-contato" action="" method="post">
             <h2 class="formulario-contato__titulo">Fale conosco</h2>
             <div class="campo">
-                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required
-                    maxlength="256" />
+                <input type="text" id="nome" name="nome" class="entrada" placeholder="Nome" required maxlength="256" />
                 <label for="nome" class="campo__label">Nome</label>
             </div>
 
@@ -92,6 +88,28 @@
             <p>2023</p>
         </div>
     </footer>
+    <script type="module">
+        import LoginService from './assets/js/services/LoginService.js';
+        import MessageUtils from './assets/js/utils/MessageUtils.js';
+        const loginService = new LoginService();
+        const messageUtils = new MessageUtils();
+
+        var autenticar = function (submitEvent) {
+            const email = submitEvent.path[0][0].value;
+            const senha = submitEvent.path[0][1].value;
+
+            if (loginService.autenticar(email, senha)) {
+                messageUtils.addSuccess("Autenticado com sucesso");
+            } else {
+                messageUtils.addError("Falha ao autenticar!");
+            }
+            return false;
+        }
+
+        const formLogin = document.getElementById("formLogin");
+        formLogin.onsubmit = autenticar;
+    </script>
+
 </body>
 
 </html>

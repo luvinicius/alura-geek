@@ -5,6 +5,7 @@
 @import url(../components/cabecalho.css);
 @import url(../components/rodape.css);
 @import url(../components/contato.css);
+@import url(../components/messages.css);
 
 .login {
     background-color: var(--cinza-claro);
